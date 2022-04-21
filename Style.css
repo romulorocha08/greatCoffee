@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--backgrond);
+}
+
+:root {
+  --backgrond: #000;
+  --text-color: #fff;
+  --button: #8257e5;
+  --border: #29292e;
+  --border-menu-mobile: #a8a8b3;
+  --text-color-menu-mobile: #e1e1e6;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  color: var(--text-color);
+  background: #000000;
+  overflow: hidden;
+  
+}
+
+.container {
+  max-width: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 10rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: red;
+}
+
+.header img {
+  position: absolute;
+}
+
+.header button {
+  position: absolute;
+  right: 150px; 
+  height: 37px;
+  left: 1026px;
+
+  border: 1px solid #8257E5;
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-color: yellow;
+}
+
+.header button h1 {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 15px;
+
+
+  letter-spacing: 0.02em;
+
+  color: #FFFFFF;
+}
+
+.header img {
+  width: 43.06px;
+  height: 50px;
+  left: 280px;
+}
+
+
+.headerContent {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerContent nav a {
+  text-decoration: none;
+
+  margin-left: 2rem;
+  color: var(--text-color);
+}
+
+.headerContent nav a:first-child  {
+  margin: 0;
+}
+
+.hero {
+  width: 548px;
+  height: 204px;
+  margin: 50px 406px 481.47px 406px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  background-color: green;
+}
+
+.hero h1 {
+  
+
+  color: #FFFFFF;
+  background-color: transparent;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero h1 span {
+  background-color: transparent;
+}
